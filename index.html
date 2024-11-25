@@ -11,16 +11,15 @@
     <header>
     <div class="container">
         <div class="header-content">
-            <!-- Logo -->
-            <div class="logo" onclick="refreshPage()">
+            <div class="logo" onclick="window.location.href = 'index.html';">
                 <img src="logo.png" alt="My Logo">
             </div>
-            <!-- Title and Navigation -->
             <div class="title-nav">
                 <h1>My Electronics Projects</h1>
                 <nav>
                     <ul>
-                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li> <!-- Link to Projects page -->
                         <li><a href="#about">About Me</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
@@ -29,6 +28,18 @@
         </div>
     </div>
 </header>
+
+
+
+    <section id="intro">
+        <div class="container">
+            <h2>Welcome to My Electronics Projects Showcase</h2>
+            <p>Explore my innovative electronics and IoT projects built using Arduino, Raspberry Pi, and more!</p>
+        </div>
+    </section>
+
+
+
 
     <main>
         <!-- Existing sections remain the same -->
@@ -40,11 +51,17 @@
                     <p>An IoT-based lighting solution for smart homes.</p>
                     <a href="#" class="btn">View Details</a>
                 </div>
-                <div class="project-card">
+                  <div class="project-card">
                     <h3>Line Follower Robot</h3>
                     <p>A robot that follows a path using sensor technology.</p>
                     <a href="#" class="btn">View Details</a>
                 </div>
+ 		<div class="project-card">
+                    <h3>Home Automation</h3>
+                    <p>An IoT-based lighting solution for smart homes.</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+
                 <div class="project-card">
                     <h3>Weather Monitoring System</h3>
                     <p>A system to monitor temperature, humidity, and more.</p>
